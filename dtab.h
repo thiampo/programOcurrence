@@ -1,0 +1,1 @@
+int tab1(int T[],int A) ;

@@ -21,9 +21,10 @@ int T[N] ;
 
 tab1(T,N);// appele du fonction 
 
-somme(T,N);
+somme(T,N); // appelle du fonction somme 
 
-tableauTrie(T,N);
+tableauTrie(T,N); // appelle du fonction trie 
+  div(T,N) ;
 
     
     

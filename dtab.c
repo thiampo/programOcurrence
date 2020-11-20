@@ -3,7 +3,7 @@ int tab1(int T[],int A){
     int i ,j ,m;
     int valeur = 0 ; 
     char f ;
-   
+             //  saisir des valeur 
         for(i = 0; i<A; i++){
             do
             {
@@ -33,7 +33,8 @@ int tab1(int T[],int A){
                }j++;
            }
        }
-    // occurence
+    
+    // tableaux final
   
   printf("le tableaux final est:\n") ;
   for(int i=0 ;i<A ;i++){
@@ -56,6 +57,7 @@ int tab1(int T[],int A){
 return 0 ;
 }
 
+     // Fonction somme 
 
 int somme( int T[] ,int A){
 
@@ -72,7 +74,7 @@ printf("la somme des tableaux est : %d\n",som) ;
     return 0 ;
 }
 
-
+       // Fonction trie
 int tableauTrie(int T[],int A){
     int TPOS[A]  ;
     int TNEG[A]  ;
@@ -104,5 +106,30 @@ int tableauTrie(int T[],int A){
  } 
          printf("\n") ;
 
-    return 0 ;
-}
+         return 0 ; }
+
+
+          //  Fonction division
+
+          int div(int Ta[], int A) {
+     
+     int N = 0;
+     int j ;
+    
+     printf( "  les nombre divi par 2 sont :") ;
+     for ( j = 0; j< A; j++)
+     { if (Ta[j]%2==0)
+     {
+     
+     
+      printf("%d\t",Ta[j]) ;
+     printf("\n") ;
+         
+     }  ;
+     } 
+
+
+
+         return 0 ; }
+
+    
